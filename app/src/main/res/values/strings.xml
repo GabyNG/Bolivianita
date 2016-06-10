@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Bolivianita</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dos">Dos</string>
+    <string name="title_activity_lapaz">Lapaz</string>
+    <string name="title_activity_queso">Queso</string>
+    <string name="title_activity_la_paz1">LaPaz1</string>
+    <string name="title_activity_oruro">Oruro</string>
+    <string name="title_activity_oruro1">Oruro1</string>
+    <string name="title_activity_pando">Pando</string>
+    <string name="title_activity_potosi">Potosi</string>
+    <string name="title_activity_potosi1">Potosi1</string>
+    <string name="title_activity_santa_cruz">SantaCruz</string>
+    <string name="title_activity_santa_cruz1">SantaCruz1</string>
+    <string name="title_activity_tarija">Tarija</string>
+    <string name="title_activity_tarija1">Tarija1</string>
+    <string name="title_activity_beni">Beni</string>
+    <string name="title_activity_cochabamba">Cochabamba</string>
+    <string name="title_activity_cochabamba1">Cochabamba1</string>
+    <string name="title_activity_chuquisaca">Chuquisaca</string>
+    <string name="title_activity_chuquisaca1">Chuquisaca1</string>
+</resources>

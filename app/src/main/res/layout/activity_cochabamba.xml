@@ -1,0 +1,313 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.gaby.android.bolivianita.Cochabamba"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pichon"
+                android:textAllCaps="true"
+                android:id="@+id/tvPichon"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pichon"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+-	4 pichones \n
+-	8 tazas de caldo base o agua\n
+Si usa agua y no caldo base\n
+-	8 tazas de agua\n
+-	1 cebolla cortada en 4\n
+-	3 zanahorias peladas y cortadas en tiras\n
+-	2 dientes de ajo aplastado\n
+-	2 ramitas de perejil\n
+-	½ cucharilla de pimienta molida\n
+-	Sal y pimienta molido  a gusto\n
+-	1 taza de aceite\n \n
+Ensalada:\n
+-	1 cebolla en corte pluma\n
+-	1 cabeza pequeña de lechuga\n
+-	1 tomate picado en rodajas\n
+-	1 pizca de sal\n
+-	1 chorrito de aceite\n
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Ponga los pichones a cocer en el caldo, aproximadamente
+30 minutos hasta que queden suaves. \n \n Si usa agua, agregue
+1 cebolla cortada en cuatro partes, 3 zanahorias peladas
+y cortadas en tiras, 2 dientes de ajo aplastados,
+2 ramitas de perejil, ½ cucharilla de pimienta molida.
+Una vez los pichones estén cocidos, escúrralos bien.\n \n
+Déjelos enfriar 2 minutos y condimente por ambos lados
+con sal y pimienta.\n \n Deje calentar un sartén con un  poco
+de aceite a fuego moderado, fría los pichones uno por uno
+hasta que queden dorados.\n \n
+ Sírvalos calientes con papas blancas o doradas, chuño
+ phuti (ver receta de chuño phuti) y ensalada.\n
+
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="silpancho"
+                android:textAllCaps="true"
+                android:id="@+id/tvSilpancho"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/silpanchococha"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	6 papas medianas (imillas)\n
+-	6 pedazos de carne de pulpa de res\n
+-	1 taza de pan molido\n
+-	6 huevos fritos\n
+-	Aceite para freír\n
+-	Sal y pimienta a gusto\n
+Para la ensalada\n
+-	2 tomates pelados y picados\n
+ en cuadritos pequeños\n
+-	2 cebollas blancas picadas \n
+en cuadritos pequeños\n
+-	1 locoto picado en cuadritos pequeños\n
+-	1 cucharada de perejil finamente picado\n
+-	Sal a gusto\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+En una olla haga cocer las papas peladas con
+agua y sal, hasta que estén blandas, escurra
+y parta cada papa en 4 rodajas. Fría las papas
+cocidas y cortadas en forma redondeada.\n \n
+Mezcle el pan molido con la sal y pimienta,
+coloque en un batan la carne estirada, poniendo
+n poco del pan molido sobre la carne, debe golpear
+hasta que el pan se pegue, dar la vuelta agregando
+otro poco de pan, siga golpeando hasta que quede
+del tamaño de un plato, continúe de misma forma
+con los otros pedazos restantes. \n \n Deje calentar
+el sartén a fuego normal, añadiendo una medida
+de aceite por pedazo de carne, fría la carne hasta
+ que se dore de ambos lados. Fría los huevos.
+ En una fuente mezcle todos los ingredientes de la
+ ensalada.\n \n
+Para servir coloque primero el arroz encima el
+silpancho, sobre la carne el huevo, las papas
+fritas a los lados, cubra con bastante ensalada.\n
+
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="chajchu"
+                android:textAllCaps="true"
+                android:id="@+id/tvChajchu"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chajchucocha"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	1 y ½ Kg de chuño remojado y pelado\n
+-	7 tazas de agua\n
+-	½ Kg de cadera de vaca\n
+-	1 cabeza de cebolla entera\n
+-	¼ taza de aceite\n
+-	6 vainas de ají colorado molido o \n
+3 cucharadas de ají en polvo\n
+-	1 taza de sopa de chajchu\n
+-	Sal al gusto\n
+-	6 papas grandes\n
+-	7 colas de cebolla verde en tiras\n \n
+Para acompañar\n
+-	2 quesillos frescos cortados en 6 lonjas\n
+-	3 huevos duros cortados en 6 tajadas\n \n
+Salsa cruda:\n
+-	1 cebolla mediana picada en rodajas\n
+-	1 tomate finamente picado\n
+-	1 locoto finamente picado\n
+-	1 cucharilla de sal\n
+-	 1 cucharada de perejil finamente picado\n
+-	Sal al gusto\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Remojar el chuño seco una noche antes con bastante
+agua tibia. Pelar y lavar varias veces, exprimiendo
+con las manos, hasta que el color del agua sea
+cristalina, se puede comprar chuño remojado y lavado
+en los mercados.\n \n
+En una ola calentar las 7 tazas de agua a fuego fuerte,
+una vez este tibia, agregar la carne cortada en lonjas
+delgadas, junto con la cebolla entera retostada.\n \n
+Desespumar las veces que sea necesario, dejar cocinar
+una hora.
+En una sartén  con ¼ taza de aceite. Dorar levemente
+el ají a fuego fuerte, agregar 1 taza de sopa de chajchu
+y sal a gusto, bajar el fuego. \n \n Dejar cocer 15 minutos o
+hasta que se reduzca, mezclando permanentemente para que
+no se queme. Sacar del fuego. Una vez cocida la carne,
+agregar las papas y el chuño, dejar cocer 20 minutos o
+hasta que la papa este suave, añadir la cebolla verde
+cortada y dejar hervir 5 minutos más. Retirar la olla
+del fuego y escurrir el caldo, martajar y picar la carne
+en trozos. Mantenerla caliente.\n \n Descarta la cebolla entera,
+servir el chuño, la papa y la cebolla verde en cada plato,
+encima poner las carnes martajadas, las tajadas de quesillo
+fresco y los huevos duros cortados en rodajas, rosear con
+el ají cocido.\n \n
+Para la salsa cruda mezclar la cebolla en rodajas, el
+tomate, el locoto y la sal, cubrir cada plato con la
+salsa cruda. Rociar con perejil picado.\n
+
+"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#789abb"
+                android:text="siguiente"
+                android:id="@+id/btSiguiente5"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

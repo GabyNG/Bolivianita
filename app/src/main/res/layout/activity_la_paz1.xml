@@ -1,0 +1,466 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.gaby.android.bolivianita.LaPaz1"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fricase de cerdo"
+                android:textAllCaps="true"
+                android:id="@+id/tvfricase"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fricase"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+               />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+-	1 kg. Pierna de Cerdo(o brazo si quieren)\n
+-	1 kg. Costilla de Cerdo(como las que se usa en Barbeque)\n
+-	1 kg. Espalda de Cerdo(si no encuentran \n
+aumenten la proporción a las anteriores)\n
+-	2 cucharada de Sal\n
+-	2 cucharada Comino molido\n
+-	4 cucharada ajo picado(1 cabeza; limpia y bien picadito el ajo)\n
+-	6 cucharadita ají Amarillo molido\n
+-	2 cucharadita ají Colorado molido\n
+-	c/n Pan molido\n
+-	1 kg. Mote de maíz, cocinado\n
+-	½ kg. Chuño(papa seca deshidratada), previamente cocinado\n
+-	3 Ltr. Agua\n
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+En la olla en que se ha de cocinar el chairo, poner el agua
+a fuego fuerte y cuando apenas esté tibia, añadir la carne
+de vaca y el charqui; antes de que suelte a hervir, espumar
+y añadir la sal; dejar cocinar por lo menos una hora.\n \n A este
+caldo agregar: las habas, arvejas, zanahorias y la papa, hacer
+hervir unos quince minutos, poner el chuño, dejar hervir otros
+cinco minutos y luego añadir el maíz blanco pelado cocido y el
+trigo mote pelado cocido, dejando cocinar el tiempo necesario
+hasta que la papa esté cocida.\n \n
+En una olla pequeña poner la manteca o aceite a fuego fuerte y
+dorar la cebolla; añadir: el ají colorado, comino, orégano y
+pimienta; dejar cocer unos minutos y luego agregar al chairo
+esta salsa para que todo junto hierva unos diez minutos más.\n
+
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="picana navideña"
+                android:textAllCaps="true"
+                android:id="@+id/tvPicana"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/picana"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	1 pollo de dos kilos\n
+-	1 kilo de pecho de vaca\n
+-	1 espalda de cordero\n
+-	½ libra de tunta remojada\n
+-	4 papas grandes\n
+-	3 zanahorias\n
+-	1 nabo\n
+-	2 ramas de perejil y apio\n
+-	3 hojas de laurel\n
+-	4 ajíes verdes\n
+-	1 cebolla\n
+-	1 copa de vino\n
+-	1 copa de cerveza\n
+-	½ cucharilla de pimienta blanca entera\n
+-	2 cucharas de pimentón colorado entero\n
+-	½ cucharilla de orégano desmenuzado\n
+-	Sal al gusto\n
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+El pecho de vaca debe cocer en agua con sal en una olla a
+presión durante una hora. Cuando la carne de res esté blanda
+se deben añadir los trozos de cordero y pollo.\n \n
+Al mismo tiempo se debe aliñar con el ají verde pasado por
+brasa; la zanahoria, el nabo y la cebolla. Todo se debe
+condimentar con pimienta, laurel, perejil, apio entero,
+pimentón colorado y sal al gusto. \n \n Cuando las carnes estén
+a medio cocer, añadir las papas enteras y terminar su cocimiento.\n
+En otra olla con agua se deben hacer cocer los choclos con anís
+y azúcar, si desea que éstos sean dulces.
+La tunta se debe remojar en agua tibia para suavizar su pulpa,
+luego se debe pelar y lavar bien.\n \n
+Tiene que ser cortada un poco por la mitad para rellenarla con
+una tajada de queso y luego se debe poner en una coladera para
+hacer cocer a vapor en una olla con agua caliente. Una vez cocidas
+las papas y carnes se añade el vino, la cerveza. Se espolvorea el
+orégano y se deja dar un hervor.\n \n
+En un plato hondo se sirven las presas adornando con las verduras,
+dos papas y el caldo. La tunta y el choclo se sirven en forma
+separada sobre una fuente.\n
+
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jaconta"
+                android:id="@+id/tvJaconta"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:textAllCaps="true"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jaconta"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	1 Cabeza de cordero\n
+-	1 Cabeza de repollo\n
+-	15 Papas medianas\n
+-	½ Libra de arroz\n
+-	Tunta o chuño remojado (a gusto)\n
+-	1 Plato de jallpahuaica\n
+-	1 cucharilla de orégano\n
+-	Perejil picado para espolvorear\n
+-	Sal a gusto\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+En una olla a presión con dos litros de agua hirviendo,
+ hacer cocer la cabeza bien lavadas; cuando el cordero
+ este a medio cocer, añadir el repollo deshojado.\n \n
+La noche anterior remojar el chuño y luego pelar. Lavar
+varias veces hasta que el agua se aclare. No olvide
+exprimir los chuños después de cada lavada. \n \n Reservar.
+Pasado el tiempo de cocimiento del repollo, incorporar
+el chuño que reservo junto con las papas peladas enteras,
+el arroz previamente lavado,  y el orégano desmenuzado.\n \n
+Retirar del fuego cuando la papa se encuentre suave y
+servir con perejil espolvoreado.
+Acompañar con jallpahuaica.\n
+
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sajta"
+                android:id="@+id/tvSajta"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:textAllCaps="true"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sajta"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	6 presas de pollo(muslo y pierna opcional)\n
+-	1 cebolla entera\n
+-	4 cucharadas de aceite\n
+-	2 cebollas finamente picadas\n
+-	1 diente de ajo finamente picado\n
+-	1 taza de arveja\n
+-	½ cucharilla de pimienta\n
+-	¼ cucharilla de comino\n
+-	Sal a gusto\n
+-	8 cucharadas de ají amarillo\n
+ molido(180g)aproximadamente\n
+-	2 tazas de la sopa del pollo\n
+-	6 papas peladas\n
+-	250g de tunta o chuño remojado\n
+-	1 quesillo fresco desmenuzado\n
+-	2 huevos\n
+-	Sal\n \n
+Para la salsa:\n
+-	2 cebollas\n
+-	1 tomate\n
+-	Aceite y sal\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+En una olla con agua cocinar las presas de pollo con
+1 cebolla entera, cuando ya estén tiernas, retirar
+las presas de la olla. En una sartén con 4 cucharadas
+de aceite, dorar la cebolla y el ajo, añadir las arvejas,
+la pimienta, el comino y la sal. Dejar dorar unos minutos
+más y agregar el ají disuelto en 2 tazas de sopa en la
+que coció el pollo. \n Dejar hervir a fuego lento hasta que
+las cebollas no se noten.
+Agregar el pollo a la salsa, mezclar y dejar cocer 5 minutos,
+hasta que el pollo adquiera es sabor del ají.\n \n
+En otra olla con agua, hacer cocer las papas peladas,
+hasta que estén blandas. En una olla pequeña, cocinar el
+chuño pelado y cortada en trozos pequeños, una vez cocido,
+colocar el agua y agregar el queso y el huevo. Revolver a
+fuego lento hasta que se funda el queso.
+Para la sarsa:\n \n
+Picar la cebolla en pluma, el tomate en cuadraditos,
+mezclar y sazonar con aceite y sal. Servir el pollo con
+papas cocidas y el chuño. Poner la salsa encima del pollo.\n
+
+
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="papas a la huancaina"
+                android:id="@+id/tvPapas"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:textAllCaps="true"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/papalahuancaina"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	2 tazas de maní molido (1 taza entero y crudo)\n
+-	16 papas imillas medianas\n
+-	6 huevos duros\n
+-	10 vainas de ají amarillo\n
+-	¼ taza aceite\n
+-	½ cucharilla pimienta\n
+-	Sal al gusto\n
+-	¼ taza de agua\n
+-	16 hojas de lechuga\n
+-	2 tomates cortados en rodajas\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Dejar remojar 1 taza de maní crudo por 1 hora o más en
+abundante agua. En una olla hacer cocer las papas peladas
+y los huevos con agua y sal. \n \n Dejar a un lado. Tostar las
+vainas de ají amarillo sobre el fuego de la hornilla,
+dejar remojar en agua unos minutos para que se hidraten,
+cortarlas por la mitad, sacar las semillas y las venas,
+ lavar muy bien frotando unas con otras.
+En un satén con 2 cucharadas de aceite, tostar el maní
+crudo hasta dorar un poco.\n \n
+Moler el ají en batan o licuar con muy poco agua de
+manera que resulte en 1 taza de una pasta espesa y homogénea.
+Poner en una cacerola ¼ taza de aceite, cuando este
+caliente agregar el ají y dejar freír moviendo circularmente
+hasta que encrespe, añadir la pimienta y la sal.\n \n
+En una procesadora, muela el maní agregando la suficiente
+leche para lograr una pasta homogénea semi espesa, agregar
+la pasta de maní a la cacerola del ají con ¼ taza de agua.\n \n
+Mezclar muy bien, dejar cocinar 8 minutos mezclando, evitando
+que en el fondo se queme y se prenda. Sacar del fuego y dejar
+la cacerola tapada sobre la hornilla para que se mantenga caliente.\n \
+Servir en un palto plano 2 hojas de lechuga, encima 2 papas
+cocidas calientes, bañar con salsa de maní sobre las papas
+y la lechuga, decorara con un huevo y tomate cortados en rodajas.
+
+"/>
+
+            </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

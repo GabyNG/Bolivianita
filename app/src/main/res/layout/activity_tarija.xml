@@ -1,0 +1,288 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.gaby.android.bolivianita.Tarija"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="arvejada"
+                android:textAllCaps="true"
+                android:id="@+id/tvArvejada"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arvejada"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+-	3 kilos de arveja\n
+-	1 cebolla picada o 1 plato \n
+de cebolla verde picada\n
+-	Sal y pimienta al gusto\n
+-	½ Kilo de papas\n
+-	2 cucharas de perejil picado\n
+-	3 huevos\n
+-	4 onzas de queso rallado\n
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Descascarar y hacer cocer las arvejas. Aparte
+pelar las papas, cortarlas en tiras finas.
+Freír en aceite caliente.\n \nPreparar un rehogado
+con aceite, cebolla y condimentos. Añadir las
+arvejas y los huevos enteros. \n \n Mezclar y por
+ultimo agregar las papas fritas, el queso y
+el perejil. Remover y servir caliente.\n
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="saice"
+                android:textAllCaps="true"
+                android:id="@+id/tvSaice"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/saice"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	1Kilo de carne molida o picada\n
+-	2 Kilos de papa\n
+-	¼ litro de aceite
+-	2 cucharas de ají colorado molido y frito\n
+-	1 cucharilla de orégano seco, comino, \n
+pimienta y sal a gusto\n
+-	1 taza de arvejas peladas\n
+-	2 cucharas de perejil picado\n
+-	1 cuchara de pimentón molido\n
+-	1 cebolla grande \n
+-	2 vasos de chicha\n \n
+Guarniciones:\n
+-	Arroz \n
+-	Chuño (opcional)\n
+-	Sarza (lechuga, tomate y cebolla) a gusto\n
+
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Picar la cebolla o licuarla ligeramente con un poco
+de agua. Calentar un chorro de aceite y retostarla.
+Luego sazonar a gusto y dejar cocer a fuego lento
+unos 5 minutos. \n \n Echar el aji y el resto de los
+condimentos, remover y añadir la carne molida,
+mas ¼ de taza de agua. Dejar cocer hasta que se
+suelte el juego. Después de 10 minutos de cocción,
+ añadir las papas y arvejas cocidas previamente.\n \n
+ Mezclar bien y servir acompañando de chuño
+ (rebozarlo en huevo) arroz graneado y ensalada de
+ cebolla y tomate. Decora con un poco de perejil y
+ agréguele un poco de  cebolla cortada en julianas,
+ para darle más sabor. No pueden faltar las papas
+ picadas en trocitos y el ahogadito.\n
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="chanka de pollo"
+                android:textAllCaps="true"
+                android:id="@+id/tvChanka"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chanca"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	8 tazas de agua\n
+-	16 presas de pollo (entrepiernas)\n
+-	1 cebolla mediana entera\n
+-	Zanahoria pelada cortada en lonjas\n
+-	3 ramitas de ajo, pelados enteros\n
+-	½ cucharada de sal\n
+-	1 taza de arvejas verdes\n
+-	8 papas grandes peladas\n
+-	10 vainas de ají amarillo despepitado, \n
+lavado y molido (1 taza)\n
+-	½ taza de aceite\n
+-	1 cucharilla de sal\n
+-	1 cebolla cortada en rodajas muy delgadas\n
+-	1 taza de tomate pelado finamente picado\n
+-	3 cucharadas de aceite\n
+-	Vinagre y sal a gusto\n
+-	16 hojas de lechuga\n
+-	4 huevos duros en rodajas\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Poner una olla  con 8 tazas de agua, a fuego fuerte,
+cuando este tibia, agregar las presas de pollo, la
+cebolla entera, la zanahoria, el perejil, el ajo,
+y la sal, dejar hervir 40 minutos o hasta que el
+pollo este suave, retirar las presas. \n \n Dejar  a un
+lado. En otra olla pequeña, poner un cucharon de
+la sopa que coció el pollo, hacer cocer las arvejas
+peladas 10 a 15 minutos o hasta que estén suaves pero
+ que no pierdan el color.\n \n
+En el mismo caldo que coció el pollo, poner las papas
+enteras peladas y dejar cocer por 20 minutos o hasta
+que estén suaves pero no desechas.\n \n
+Mientras cuece la papa, poner en un sartén a fuego
+fuerte, u  poco de aceite, cuando ya esté caliente
+agregar la taza de ají amarillo moldo crudo, dorar
+un rato, agregar poco a poco el resto de la taza de
+aceite, mezclando intensamente para que espese, una
+vez espeso añadir la sal y retirar del fuego y dejar
+a un lado, aparte prepara la cebolla en rodajas y el
+tomate, con 3 cucharadas de aceite, vinagre y sal,
+mezclar muy bien.\n \n
+Servir poniendo en cada plato 2 hojas de lechuga,
+2 presas de pollo, 1 papa, bañar encima con la salsa
+de ají amarillo, adornar con la salsa cruda de cebolla
+y tomate, rodajas de huevo duro y arvejas verdes cocidas.\n
+
+"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#789abb"
+                android:text="siguiente"
+                android:id="@+id/btSiguiente4"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

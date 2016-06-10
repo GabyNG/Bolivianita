@@ -1,0 +1,184 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.gaby.android.bolivianita.Potosi1"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="carapulka"
+                android:textAllCaps="true"
+                android:id="@+id/tvCaraoulka"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/carapulcra"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+-	1 Kilo de charque\n
+-	8 papas sipancachi (holandesa)\n
+-	¼ libra de harina wilkaparu\n
+-	Ají colorado crudo y molido\n
+-	1 cebolla\n
+-	1 ajo\n
+-	Orégano, sal, comino, pimienta y\n
+-	Chachacoma(hierva aromática que \n
+crece en el altiplano)\n
+-	Otros (piedras rodadas de rio)\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Se combina todo, se hierve y se sirve con una piedra
+caliente burbujeando en el plato.\n \n
+La kalapurka es un plato típico potosino. Consiste en
+una lagua (sopa espesa) hecha de harina de wilkaparu
+(maíz morado), sazonado con la hierba la chachacoma
+(de sabor parecido al pino).\n \n
+La presentación del plato se la hace con una piedra
+de origen generalmente volcánico.\n
+
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sopaipillas"
+                android:textAllCaps="true"
+                android:id="@+id/tvSopaipillas"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sopaipillas"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+-	1 Kilo de harina de trigo\n
+-	1 taza de zapallo cocido o calabaza\n
+-	2 cucharadas de manteca derretida\n
+-	Sal al gusto\n\n
+Salsa de chancaca al gusto\n
+-	1 paquete de chancaca\n
+-	1 ramita de canela\n
+-	1 cucharada de cascara de naranja rallada\n
+-	3 taza de agua\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Se pone la harina, la manteca, la sal y el zapallo
+molido en un bol y se mezcla, con las manos bien
+limpias, hasta obtener una masa blanda y uniforme.
+Se divide la masa en pociones individuales más
+pequeñas y las sobrantes se dejan tapadas con un
+paño húmedo.\n \n
+Se coge cada porción de la masa y se les da una
+forma redondeada. Por otro lado se pone el aceite
+en el sartén y se lleva al fuego. Cuando el aceite
+empieza a estar caliente se fríen las porciones de
+masa hasta que queden doraditas.\n \n
+Una vez cocidas las tortitas se retiran de la sartén
+para que no absorban aceite en exceso y se reserven.
+A parte se prepara la salsa de chancaca calentando el
+agua en una ollita. \n \n Cuando el agua empieza a estar
+caliente se agrega la chancaca a la canela, la cascara
+de naranja y se deja hervir todo hasta que la chancaca
+quede perfectamente disuelta. Con cuidado se bañan las
+sopaipillas en la salsa y se sirven.
+
+
+"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

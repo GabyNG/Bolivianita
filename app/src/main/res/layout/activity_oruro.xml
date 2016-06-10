@@ -1,0 +1,266 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="16dp"
+    tools:context="com.gaby.android.bolivianita.Oruro"
+    android:orientation="vertical"
+    android:background="#000000"
+    >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="intendente"
+                android:textAllCaps="true"
+                android:id="@+id/tvIntendente"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/intendente"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-   Plato que contiene carne fritada de res\n
+-	1 riñón de cordero\n
+-	1 presa de pollo\n
+-	2 pedazos de tripa gorda de ternera\n
+-	1 chorizo de cerdo\n
+-	1 pedazo de corazón de ternera\n
+-	1 trozo de costilla de cordero\n
+-	1 asado de lomo de vaca\n
+-	1 chuleta de cerdo\n
+-	2 papas peladas y cocidas\n
+-	Arroz graneado\n
+-	Ensalada de lechuga, locoto, cebolla\n
+ y tomate.\n
+" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Asar el riñón, el chorizo de cerdo y el corazón cortado
+en pequeños asaditos, asar también la chuleta de cerdo
+o vaca condimentada con ajo y sal. Freír también el lomo
+rebanado en asados. (Todo por separado).\n \n Hacer cocer la
+presa de pollo en agua, en el mismo caldo los pedazos de
+tripa gorda y el trozo de costillo. 'n Dorar en aceite el
+pollo y la tripa hasta que este crocante (también por
+separado). Servir con la papa y ensalada.\n
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rostro asado"
+                android:textAllCaps="true"
+                android:id="@+id/tvRostro"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/corderoruro"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+-	4 cabezas de cordero con lana\n
+-	4 papas blancas\n
+-	Arroz graneado\n
+-	Sal a gusto\n
+-	Agua\n"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Conseguir un cepillo viejo y limpiar las bocas de
+las cabezas y con agua hervida lavar las cabezas,
+poner sal por toda la cabeza y llevarlas al horno
+en una fuente con agua hasta que la carne este bien
+cocida. \n \n Están listas para servir cuando la lana se
+desprende como un guante acompañar con papa y arroz.\n
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="charquekan"
+                android:textAllCaps="true"
+                android:id="@+id/tvCharquekan"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/charquecan"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	800g de charque\n
+-	½ taza de aceite\n
+-	8 papas imillas grandes con cascara\n
+-	8 huevos\n
+-	1 y ½ Kg de mote blanco (maíz pelado y cocido)\n
+-	Sal\n
+-	500g de queso\n
+-	Llajua\n
+"                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Un día antes de preparar el charquekan, remojar el
+charque en una olla con bastante agua, esto para quitarle
+todo el exceso de sal.\n \n
+Sacar el charque del agua, enjuagar y dejar que escurra.
+Calentar una olla con agua sin sal, hierva el charque unos
+15 minutos. Sacar de la olla y extender las lonjas en un
+batan o tacú.\n \nMartajar lo necesario, hasta que pueda ser
+fácilmente desmenuzado con los dedos, incluida la grasa.
+Puede también poner el charque dentro de una bolsa plástica
+y golpear sobre la bolsa con un martillo de cocina (de madera)
+sobre alguna superficie resistente.\n \n
+Mientras tanto, dejar calentar una olla con agua y sal.
+Lavar muy bien las papas imillas y agregar a la olla, con
+su cascara. Dejar cocinar 15 minutos o hasta que las papas
+estén suaves y a punto de partir.\n \n
+En la misma agua que cocieron las papas poner los huevos y
+dejar hervir 5 minutos o hasta que estos se enduren, también
+puede poner los huevos junto con las papas.\n \n
+Colocar ½ taza de aceite en un sartén grande una vez caliente
+secar lo mejor posible el charque antes de poner al aceite
+caliente, poner todo el charque en el sartén mezclando
+Hasta quedar dorado y crujiente, sacar del satén y dejar
+escurrir en una coladora metálica o también lo puede poner
+sobre papel absorbente.\n \n
+En el mismo sartén que frito el charque poner el queso en
+
+hasta quedar levemente dorado. Calentar aparte el mote blanco,
+escurrir con una espumadera y servir primero el mote, encima
+el charque frito, al lado 1 huevo, 1 papa con su cascara,
+2 lonjas de queso. Acompañar este plato con llajua.\n
+
+"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#789abb"
+                android:text="siguiente"
+                android:id="@+id/btSiguiente1"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

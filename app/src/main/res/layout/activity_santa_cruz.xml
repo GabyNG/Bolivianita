@@ -1,0 +1,264 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.gaby.android.bolivianita.SantaCruz"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="majao"
+                android:textAllCaps="true"
+                android:id="@+id/tvMajao"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/majao"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+-	1 libra de lonjas de charque \n
+(3 lonjas medianas)\n
+-	4 huevos\n
+-	¼ Kg chorizos para freír\n
+-	1 y ½ tazas de arroz\n
+-	3 plátanos postre\n
+-	1 libra de yuca\n
+-	1 cebolla\n
+-	½ tomate\n
+-	1 pedazo de pimiento morrón\n
+-	1 diente de ajo\n
+-	1 y ½ cucharillas de palillo\n
+-	Sal a gusto\
+-	Aceite\n
+"                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Remojar el charque en agua tibia durante 15 minutos,
+para quitarle la sal, luego machucar cada lonja,
+hasta que pueda ser desmenuzada con los dedos y
+tostar en poco aceite. Retirar cuando estén crocantes.
+Reservar.\n \n
+Lavar el arroz y en sartén grande sin aceite retostar,
+remover constantemente hasta que seque el arroz, añadir
+un diente de ajo finamente picado. \n \n Seguir removiendo
+hasta que se dore, añadir la cabeza de cebolla, el
+tomate y el pimiento morrón finamente picados, agregar
+el palillo y el charque removiendo por unos minutos más,
+luego llevar el arroz a una olla, verter tres tazas de
+agua caliente añadir poca sal y llevar a fuego fuerte,
+cuando el agua se vaya consumiendo, disminuir a fuego
+lento, aumentar de a poco agua fría, hasta terminar su
+conocimiento.\n \n
+Hacer cocer la yuca pelada en agua caliente con sal.
+En forma separada, freír en bastante aceite caliente,
+los plátanos cortados en largos y delgados, los chorizos
+cortados en rodajas y mezclar al final con el arroz.\n \n
+Servir el majao, alrededor los plátanos, en una fuente
+colocar las yucas y adornar con un huevo recién frito.\n
+
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="locro"
+                android:textAllCaps="true"
+                android:id="@+id/tvLocro"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/locro"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	12 tazas de agua\n
+-	½ Kilo de charque de buena clase\n
+-	½ Kilo de hueso (mejor si es de agujita)\n
+-	½ Kilo de maíz duro molido (frangollo)\n
+-	Ahogado de aceite con cebolla\n
+-	Sal a gusto\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Coloque una cacerola con agua al fuego y añada el
+charque que deberá estar bien lavada para quitar la
+sal, y el hueso picado.\n \n
+Prepare un ahogado y agréguelo a nuestra cacerola
+De manera separada ponga  a hervir el maíz (frangollo).\n
+Cuando esté en su punto, agréguelo a la cacerola con
+charque. Condimente con sal y déjelo por unos minutos más en el fuego.\n
+
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sonso"
+                android:textAllCaps="true"
+                android:id="@+id/tvSonso"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sonso"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	1 Kilo de queso rallado (preferible si es \n
+mezcla de un queso duro y seco como el menonita \n
+o el chaqueño, con un queso como el mozzarella)\n
+-	1 Kilo de yuca cocida (hasta que este blanda)\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Moler la yuca hasta formar una pasta y agregar el
+queso rallado. Seguir manteniendo una consistencia
+pastosa. \n \nUtilizar un palo de 20cm de largo y untar
+alrededor del palo una buena cantidad (hasta que
+tenga la forma de un choclo atravesado por un palo).\n \n
+Ponerlo en la parrilla o a la leña, hasta que dore
+y finalmente se puede degustar el sonso de yuca que
+es muy delicioso.\n
+"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#789abb"
+                android:text="siguiente"
+                android:id="@+id/btSiguiente3"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

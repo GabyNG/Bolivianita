@@ -1,0 +1,257 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.gaby.android.bolivianita.Beni"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="keperi"
+                android:textAllCaps="true"
+                android:id="@+id/tvKeperi"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/keperi"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+-	2 y ½ Kilo de carne vacio\n
+-	5 limones el jugo\n
+-	½ taza de salsa soya\n
+-	½ taza de cuchara pimienta\n
+-	½ cuchara de comino\n
+-	½ cuchara de ajino moto\n
+-	1 cuchara de sal\n
+-	Agua lo necesario\n
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Extender la carne sobre una mesa de trabajo,
+retirar todas las impurezas (los nervios y
+las grasas) de la superficie de la carne,
+lavar con abundante agua y dejar escurrir.\n \n
+Colocar en una olla a presión la carne, agregar
+el jugo de los limones, juntamente con la salsa
+soya, sazonar con la sal, el comino, la pimienta
+y el ajino moto, finalmente verter el agua hasta
+cubrir por completo la carne. \n \n Dejar cocinar durante
+1 y ½ horas o hasta que la carne este tierna.\n \n
+Servir acompañado de rodajas de pepino, rodajas
+de tomate y arroz con queso.\n
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="payuje"
+                android:textAllCaps="true"
+                android:id="@+id/tvPayuje"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/payuje"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	6 plátanos maduros\n
+-	5 clavos de olor (opcional)\n
+-	3 ramas de canela entera\n
+-	Azúcar al gusto\n
+-	Leche fría\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Pelar los plátanos, cortar en trozos y colocarlos
+en una olla con agua fría hasta que estén
+semicubiertos. Añadir la canela, los clavos de
+olor y el azúcar a gusto, mezclar.\n \n
+Llevar a fuego lento y cocinar hasta que los
+plátanos se deshagan, si es necesario aumentar
+un poco  más de agua. La cocción tiene que quedar
+pastosa. Luego retira del fuego y dejar enfriar.\n \n
+Servir la preparación en pocillos o copa para postre,
+agregarla leche fría y luego espolvorear con la canela molida.\n
+
+"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sopa de albondigas de maiz"
+                android:textAllCaps="true"
+                android:id="@+id/tvSopaalbondigas"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sopabeni"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	½ kilo de carne molida\n
+-	2 tazas de harina de maíz\n
+-	2 dientes de ajo\n
+-	2 cebollas\n
+-	2 tomates\n
+-	2 pimentones\n
+-	Apio, comino, pimienta, \n
+y sal (cantidad necesaria)\n
+
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Mezclar la carne molida con el maíz en el tacú,
+agregar la sal, el comino, la pimienta y el ajo.
+Moler bien. Sacar la masa y hacer las albóndigas
+(bolitas) una a una y reservar.\n \n
+En una olla, poner el agua a hervir. Agregar la
+cebolla picada, el tomate  el pimentón, el apio y
+hacer una sopa bien sabrosa. \n \n Añadir las albóndigas
+y dejar hervir alrededor de 15 minutos.
+Ratificar sabor y apagar. Se acompaña con yuca
+sancochada de “jaccu”
+
+"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

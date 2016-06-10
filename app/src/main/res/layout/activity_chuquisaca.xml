@@ -1,0 +1,302 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.gaby.android.bolivianita.Chuquisaca"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="chorizo"
+                android:textAllCaps="true"
+                android:id="@+id/tvChorizo"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chorizochuqui"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Para hacer el chorizo:\n
+-	1 Kg carne de cerdo molido\n
+-	1 Kg tripa gorda de res\n
+-	1 cuchara de perejil finamente picado\n
+-	1 cucharilla de orégano desmenuzado\n
+-	2 cucharillas de hierba buena picada\n
+-	2 tazas de cebolla verde picada fina (colas)\n
+-	Hilo de cáñamo lo necesario\n
+-	1 pizca de azúcar\n
+-	1 pizca de cascara de naranja raspada\n
+-	½ cucharilla de clavo de olor molida\n
+-	1 pizca de canela molida\n
+-	1 cuchara de ají colorado molido\n
+-	Sal \n
+-	8 papas blancas\n
+-	2 cabezas de lechuga\n
+-	4 panes enteros\n \n
+Condimentos:\n
+-	1 cucharilla de pimienta molida\n
+-	1 cucharilla de comino molido\n
+-	4 dientes de ajo\n \n
+Sarza:\n
+-	1 cebolla en corte pluma\n
+-	½ tomate picado fino\n
+-	1 pizca de sal\n
+-	1 chorrito de aceite\n
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Lavar bien por fuera la tripa, dar la vuelta y raspar
+asperezas, limpiar bien hasta que este transparente.
+Tomar una de las puntas de la tripa y amarrar fuerte
+con el hilo de cáñamo.\n \n
+Aparte, en un recipiente, mezclar bien la carne, los
+condimentos, el clavo de olor, el azúcar, el perejil,
+la cascar de naranja, la hierba buena, la cebolla verde,
+la canela, sal a gusto y por último el ají colorado molido.\n \n
+Embutir esté preparado en la tripa, quedando la mesa
+compacta y aura, aproximadamente unos 10 centímetros,
+después de quedar bien embutido torcer la tripa dos
+veces y volver a embutir con espacio de 1 centímetro,
+nuevamente llenar 10 centímetros, hasta terminar la masa.
+Cerrar amarrando con el hilo.\n \n
+Hacer cocer las papas blancas enteras y peladas, en agua
+hirviendo con sal. Deshojar la lechuga, lavar hoja por hoja
+y picar finamente. Luego para la sarza, lavar los ingredientes,
+picar, al final mezclar con la sal y aceite.\n \n
+En una sartén con aceite caliente, freír los chorizos
+hasta que estén dorados y cocidos, una vez fritos sacar
+en un recipiente. \n \n Partir los panes por la mitad y dorar
+en el mismo aceite. \n \n Servir el chorizo acompañado de pan
+frito, las papas enteras, la lechuga picada con sal y aceite,
+adornar con la sarza.
+
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mondongo"
+                android:textAllCaps="true"
+                android:id="@+id/tvMondongo"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mondongo"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	800 g de cuero de cerdo\n
+-	1 cucharada de sal\n
+-	3 cucharadas de aceite\n
+-	3 cebollas finamente picadas (sin lavar)\n
+-	¼ cucharilla de pimienta molido\n
+-	¼ cucharilla de comino molido\n
+-	4 dientes de ajo finamente picado\n
+-	2 tazas de sopa base\n
+-	9 cucharadas de ajo colorado molido\n
+-	1 y ½ Kilos de cerdo picado en trozos\n
+(lomitos y costillas)\n
+-	6 papas imillas\n
+-	1Kg de maíz pelado amarillo\n
+-	1 cucharadita de palillo\n
+-	Sal al gusto\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Limpiar el cuero muy bien, raspar con un cuchillo
+fino hasta quitar todos los pelos. En una olla con
+suficiente agua y con una cucharada de sal, poner,
+el cuero y dejar cocer por 5 o 6 horas o hasta que
+el cuero este suave. Quitar se la olla y cortar el
+cuero en pequeños pedazos.\n \n
+En una olla en la que se va a cocinar el mondongo
+poner el aceite a fuego alto hasta que caliente,
+agregar la cebolla y freír 5 minutos, bajar el fuego
+y poner la pimienta, el comino y el ajo picado, mezclar
+bien dejando cocer por unos 2 minutos más. \n \n Agregar la
+sopa base, el aji colorado y dejar cocer por 15 a
+20 minutos o hasta que la cebolla desaparezca, una vez
+listo el ahogado vierta el cerdo y los cueros.\n \n
+Dejar cocer 20 minutos o hasta que el cerdo este bien
+cocido. Aumentar caldo base se es necesario, la salsa
+roja tiene que quedar espesa. \n \n Mientras tanto hacer cocer
+la papa pelada en agua con sal, una vez cocida quitar de
+la olla. Dejar a un lado, cubrir para que se mantenga caliente.\n
+En una olla aparte calentar el maíz con agua, drenar el
+agua y agregar el palillo mezclar bien con el maíz y dejar
+cocer hasta que se reduzca el exceso del agua, poner sal a gusto.\n \n
+Servir el mondongo con abundante ají, una papa  blanca y
+maíz amarillo a un lado.\n
+
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="karapecho"
+                android:textAllCaps="true"
+                android:id="@+id/tvKarapecho"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/carapecho"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	1 Kilo de charque de res (pecho)\n
+-	Aceite lo necesario\n
+-	Mote para acompañar\n
+-	Papas para acompañar \n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Hacer cocer el charque previamente lavado, para
+quitarle la sal hasta que este suave. \n \n Una vez
+cocida la carne, martajar y cortar en cuadraditos,
+luego freír en aceite hasta que esté bien tostada.\n \n
+Servir con mote y papa, acompañar con llajua.\n
+
+"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#789abb"
+                android:text="siguiente"
+                android:id="@+id/btSiguiente6"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

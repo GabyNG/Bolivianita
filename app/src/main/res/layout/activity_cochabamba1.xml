@@ -1,0 +1,377 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.gaby.android.bolivianita.Cochabamba1"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="charque "
+                android:textAllCaps="true"
+                android:id="@+id/tvCharquecocha"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/charquecocha"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+-	1 Kilo de charque de res\n
+-	2 ½ tazas de arroz\n
+-	1 libra d mote (maíz amarillo)\n
+-	6 papas medianas\n
+-	6 huevos\n
+-	1 quesillo\n
+-	4 tomates\n
+-	2m cebollas medianas\n
+-	2 locotos amarillos\n
+-	3 ramitas de quirquiña\n
+-	Sal a gusto\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Lavar el charque con abundante agua, colocar en
+una olla con agua hervida dejar cocinar durante
+1 hora, si desea puede colocar en una olla a presión
+el tiempo es de 30 minutos. Retirar del fuego,
+escurrir el caldo, luego martajar con un mazo sobre
+un batan, desmenuzar el charque y dejar que de un
+hervor durante 10 minutos más, esto para retirar el
+exceso d sal.\n \n
+Colocar en una sartén un poco de aceite retostar el
+arroz hasta obtener un color caso amarillo, luego
+vaciar a una olla con 5 tazas de agua hervida sazonar
+con la sal y dejar cocinar hasta que el arroz este seco.\n \n
+Pelar las papas, lavar con abundante agua y colocar en
+una olla y dejar cocinar hasta que las papas estén tiernas.\n \n
+Aparte colocar en una olla el maíz previamente remojado
+día antes, dejar cocinar durante 1 hora. Finalmente colocar
+los huevos en otra olla con agua y dejar cocinar los huevos
+hasta que estén duros.\n \n
+Picar los tomates, cortar la cebolla en corte pluma,
+picar el locoto y deshojar la quirquiña. Servir el arroz
+en un molde, acompañado del charque, el mote, la papa y lo
+demás, agregar el quesillo cortado en forma de lenguas.\n
+
+
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pique a lo macho"
+                android:textAllCaps="true"
+                android:id="@+id/tvPique"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pique"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	12 papas peladas holandesas\n
+-	1 ½ Kg de pulpa blanca de res\n
+-	½ Kg de chorizos (opcional)\n
+-	5 tomates\n
+-	4 locotos\n
+-	1 cucharilla de pimienta\n
+-	Sal\n \n
+Para la salsa:\n
+-	¼ de aceite\n
+-	½ taza de vinagre\n
+-	3 tazas de cerveza \n
+-	½ taza de llajua\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Cortar la carne en dados medianos. Para freír las
+papas se debe usar abundante aceite. Caliente el
+aceite en una recipiente bastante alto, corte las
+papas en tiras largas no muy delgadas. \n \n Lávelas hasta
+que el agua quede totalmente limpia, vierta en una
+bandeja cubierta del papel absorbente y séquelas muy
+bien. Una vez secas agregue aceite caliente.
+El aceite debe cubrir totalmente las papas. \n \n Déjelas
+cocer hasta quedar levemente doradas. Paralelamente,
+en sartén fría la carne en aceite, mezclando con los
+condimentos, agregue los chorizos cortados en rodajas,
+fría entre 10 a 15 minutos, la carne no debe quedar seca,
+retirar del fuego cuando aún este con jugo.\n \n
+Haga una ensalada con cebolla picada pluma, tomate en
+rodajas, el locoto cortado en rodajas y aderece con poco
+de sal y aceite.
+Por ultimo mezcle la carne, los chorizos y las papas
+fritas. \n \nSirva y decore con la ensalada de tomate y locoto.\n \n
+ En un recipiente mezcle ¼ taza de aceite, ½ taza de vinagre
+ y 3 tazas de cerveza, opcional ½ taza de llajua. Una vez
+ servidos los platos de pique agregue la mezcla individualmente
+ antes de comer.\n
+
+
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aji de fideos"
+                android:textAllCaps="true"
+                android:id="@+id/tvAjidefideo"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ajifideo"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	¼ taza de aceite o manteca\n
+-	1 taza de cebolla blanca picada\n
+ menuda sin lavar\n
+-	½ taza tomate pelado picado menudo\n
+-	¼ cucharilla pimienta molida\n
+-	½ cucharilla orégano desmenuzado\n
+-	¼ taza perejil picado fino\n
+-	2 cucharadas ají colorado molido\n
+ o al gusto\n
+-	¼ kilo de carne de vaca(cadera)\n
+-	¼ cucharilla comino molido\n
+-	½ taza de habas verdes peladas\n
+-	½ taza de arvejas verdes peladas\n
+-	1 cucharilla sal o al gusto\n
+-	6 tazas caldo o agua hirviendo\n
+-	½ kilo fideo del redondo (espagueti)\n
+ tostado en la sartén con\n
+-	1 cucharada de aceite o manteca,\n
+ o al horno sin manteca\n
+-	6 papas imillas peladas cortadas en cuatro\n
+-	4 cucharadas perejil picado fino para encima\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Poner una olla a fuego fuerte con  cuarta taza de
+aceite o manteca, hasta que este caliente, agregar
+la cebolla, dejarla dorar y añadir el tomate, pimienta,
+orégano, perejil y ají, mezclar un poco.\n \n
+Cortar la carne en trozos, estos mezclar con el comino
+molido, martajar en el batán, cortar en pedacitos
+pequeños y agregar a la anterior preparación, dejar
+hervir unos 5 minutos, luego añadir las habas, arvejas,
+sal y el caldo, mezclar muy bien y dejar que rompa a hervir.\n \n
+A la preparación hirviendo poner el fideo tostado,
+cuando nuevamente hierva dejar cocer por unos 10 minutos
+y finalmente poner las papas, bajar el fuego a moderado,
+dejar cocer por unos 20 minutos hasta que el fideo y las
+papas estén suaves. \n \n Mezclar de rato en rato para que no se
+pegue. Servir con abundante perejil picado encima.
+
+
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lomo montado"
+                android:textAllCaps="true"
+                android:id="@+id/tvLomo"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lomo"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	½ Kilo de filete de lomo\n
+-	5 huevos\n
+-	1 libra de arroz graneado  cocido\n
+-	Papas y postres fritos a gusto\n
+-	Ensalada de lechuga y tomate\n (cebolla opcional)\n
+
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Granear el arroz, luego ponga en una olla
+con agua hirviendo sal, deje cocer por
+30 minutos, corte la carne en tiras de buen
+tamaño sazone con sal y pimienta al gusto,
+fría en aceite caliente, también fría los huevos.\n\n
+Sirva en un plato grande el arroz y las papas
+fritas, encima la carne, el huevo y por último la ensalada.
+
+
+
+"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

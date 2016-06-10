@@ -1,0 +1,343 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.gaby.android.bolivianita.SantaCruz1"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pacumutu"
+                android:textAllCaps="true"
+                android:id="@+id/tvPucumutu"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/pacumutu"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+-	1 y ½ Kg pulpa suave (filete)\n
+-	1 libra de tomate\n
+-	1 taza de arroz\n
+-	1 y ½ libra de yuca cocida\n
+-	1 pimiento morrón\n
+-	Sal y aceite\n
+-	¼ Kg queso chaqueño o menonita\n
+-	1 cucharilla de pimienta molida\n
+-	1 cucharilla de ajo molido\n
+-	2 cucharas de mantequilla suavizada\n
+-	1 copa de leche evaporada\n
+-	4 cebollas grandes\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+En un recipiente hondo colocar la carne cortada en
+pedazos grandes, adobar con la pimienta, el ajo,
+la sal, rociar con aceite comestible y dejar reposar
+mínimo 2 horas.\n \n
+Lavar el arroz y hacer cocer en cuatro tazas de agua
+fría a fuego lento, agregar una cebolla mediana
+finamente picada, sal y chorrito de aceite, cuando
+el arroz este medio cocido disminuir a fuego lento
+y terminar su cocimiento hasta que se encuentre blando
+ y quede espeso, con un poco de agua, luego verter la
+ leche y tapar la olla.\n  \n Dejar 2 minutos más en el
+ fuego. Retirar y esperar que enfrié un poco. Abrir un
+ hueco en medio del arroz enfriado, añadir el queso
+ rallado y volver a tapar la ola durante 2 minutos a
+ fuego lento. Pasado este tiempo, mezclar con el queso
+ ya deshecho.\n \n
+Freír la carne en una sartén grande con aceite caliente
+ y una vez que desprenda su jugo, retirar el jugo a un
+ recipiente, reservar y seguir friendo, hasta que la
+
+carne s e encuentre cocida. \n\n Después, en la misma sartén
+ con un poco más de aceite, saltear las 3 cebollas
+ restantes picadas en rodajas finas junto con el pimentón
+  morrón, cortado en cuadrados medianos y retirar una vez
+  que la cebolla se encuentre transparente. \n \n Al final
+  insertar en forma intercalada la cebolla, el pimiento
+  morrón, con la carne.\n \n
+También el Pacumutu con la misma preparación se puede azar
+a la brasa. Hacer cocer la yuca peladas en agua hirviendo
+con sal escurrir y freír.\n \n
+A tiempo de servir, colocar en cada una, trocitos de mantequilla.
+Servir el Pacumutu, rociado con su jugo, acompañar con la yuca
+y el arroz con queso.\n
+
+
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cuñape"
+                android:textAllCaps="true"
+                android:id="@+id/tvCunape"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cunape"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	1 Kg de queso rallado o molido\n
+(tipo chaqueño o menonita)\n
+-	800 gr de almidón de yuca\n
+-	2 huevos sin batir\n
+-	Leche diluida o agua (lo necesario)\n
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Mezcle todos los ingredientes y amáselos hasta
+formar una pasta bien compacta, si la mas es muy
+seca, agréguele agua o leche diluida para ablandar.
+Forme pequeñas bolitas y hornee a temperatura
+moderada hasta que levante la masa y estén dorados
+los cuñapes.\n \n
+Para hacer panes suaves y espumosos, deben mezclarse
+los ingredientes rápidamente.\n \n
+Amasarse ligeramente para darle una apariencia
+suave a la masa. Asegúrese de que el horno este
+suficientemente caliente.\n
+
+
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jochi pintao"
+                android:textAllCaps="true"
+                android:id="@+id/tvJochi"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jochi"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	1 jochi pintao\n
+-	2 cucharillas de pimienta\n
+-	3 dientes de ajo\n
+-	2 cebollas picadas\n
+-	2 tomates picados en cuadraditos\n
+-	Vinagre\n
+-	Sal\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Mezcle pimienta, ajo molido, sal y un poco de
+vinagre. \n \n Sazonar con esta preparación la carne,
+aderezarla con cebolla y tomate. Hornear,
+servir acompañando de yuca frita y arroz.\n
+
+
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="empanadas de yuca y arroz"
+                android:textAllCaps="true"
+                android:id="@+id/tvEmpanada"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/empanada"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	1 taza de arroz\n
+-	2 tazas de yuca cocida molida\n
+-	1 cucharilla de azúcar\n
+-	1 cucharilla de canela molida\n
+-	1 queso fresco del tamaño de un platillo\n
+-	3 cucharadas de manteca tibia\n
+-	½ cucharilla de sal\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Remoje el arroz, escurra el agua y muela muy fino,
+mezcle con la yuca cocida y molida como puré,
+la canela, el azúcar y la manteca tibia. Deje hasta
+ el día siguiente, estará esponjosa.\n \n La masa tiene
+ que ser de la consistencia de la “huminta”, si al
+  preparar la encuentra seca poco agréguele un poco
+   de agua en que cocieron las yucas. \n \n Poniendo
+   pequeñas porciones en chatas u hojas d plátano
+    con una tajada de queso al centro, cocínelas al
+    horno caliente.
+
+"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

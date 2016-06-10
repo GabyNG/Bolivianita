@@ -1,0 +1,258 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.gaby.android.bolivianita.Pando"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="escabeche de torcaza"
+                android:textAllCaps="true"
+                android:id="@+id/tvEscabeche"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/escabechetorcaza"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+-	6 u 8 torcazas\n
+-	3 cebollas\n
+-	1 hoja de laurel\n
+-	3 zanahorias\n
+-	½ taza de aceite\n
+-	1 taza de vino blanco\n
+-	1 cucharon de caldo\n
+-	1 locoto\n
+-	Sal y pimienta al gusto\n"
+/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Lave las torcazas y divida en dos partes. Ponga en
+una cacerola el aceite, la cebolla cortada en redondo,
+el locoto sin semillas y picado, zanahorias cortadas
+en rajas, el vino, el caldo y las torcazas.\n \n
+Haga cocinar en fuego lento hasta que las torcazas
+estén tiernas, si es necesario agregue caldo. Cuando
+esté  a punto, ponga el preparado en fuente; deje
+enfriar y lleve a la heladera hasta el día siguiente.\n
+
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="surubi"
+                android:textAllCaps="true"
+                android:id="@+id/tvsurubi"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/surubi"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	1 Kg. De surubí o Pacu\n
+-	1 cebolla grande en julianas\n
+-	1 taza de agua\n
+-	1 taza de coco o leche\n
+-	1 limón\n
+-	2 cucharas de vinagre\n
+-	2 dientes de ajo\n
+-	1 cuchara de cilantro fresco picado\n
+-	2 cucharadas de aceite\n
+-	2 tomates grandes\n
+-	1 pimentón pequeño\n
+-	1 cucharada de sal\n
+-	1 taza de vino blanco\n
+-	1 pizca de orégano fresco picado\n
+-	Pimienta negra y blanca\n
+
+" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Poner el pescado cortado en trozos previamente lavado
+en una olla con un limón exprimido, y el vinagre.
+Freír en el aceite el ajo y la cebolla en julianas y
+agregar los 2 tomates rallados y el pimentón en julianas
+y un chorro más de aceite de oliva.\n \n
+Colocar encima de sofrito los trozos de pescado, añadir
+el agua, la leche y el vino, poner a hervir en fuego lento
+por unos 15 minutos.\n \n
+Luego agregar la pimienta negra recién molida y la pimienta
+blanca, orégano, cilandro, chorro nuevamente de vino y
+dejar cocer por unos 10 minutos más, sin que el pescado se
+deshaga.\n \n
+El pescado subado lo puede comer con el arroz con coco o
+con papas cocidas, arroz blanco con plátanos verdes fritos
+o yucas hervidas.\n
+
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pan de arroz"
+                android:textAllCaps="true"
+                android:id="@+id/tvPan"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/panarroz"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	½ Kilo de harina de arroz\n
+-	2 ½ libra de yuca\n
+-	¼kilo de mantequilla o manteca\n
+-	3 cucharillas de sal\n
+-	2 cucharillas de azúcar\n
+-	½ Kilo de queso o quesillo\n
+-	Leche la necesaria\n
+"                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Hacemos cocer la yuca pelada partida y lavada por 20
+minutos o hasta que este tierna, escurrimos el agua y
+en caliente apucharramos con un tenedor sobre el mármol,
+tacu, o batan, escogiendo las fibras que tiene hasta
+formar un puré de yuca con la harina de arroz y amasando
+vamos agregar la leche hasta formar una masa de media
+consistencia, añadimos la mantequilla derretida bien
+caliente, mezclaos con la sal y el azúcar e incorporamos
+el queso rallado, para dejar reposar unas varias horas.\n \n
+Vaciamos por cucharadas en latas ligeramente enmantecadas,
+colocando la masa bien separada una de otra y ponemos al
+horno caliente (220° C) por 10 minutos o hasta que estén bien dorados.
+
+"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

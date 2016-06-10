@@ -1,0 +1,272 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.gaby.android.bolivianita.Tarija1"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="huminta a la piedra"
+                android:textAllCaps="true"
+                android:id="@+id/tvHuminta"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/huminta"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+-	6 choclos grandes\n
+-	1 queso criollo mediano\n
+-	1 rama de albahaca\n
+-	1 huevo\n
+-	2 cucharas de anís\n
+-	5 cucharas de azúcar\n
+-	½ taza d manteca\n
+-	½ taza de leche\n
+-	1 cucharilla de sal\n
+
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Cortar la parte superior (corona) del choclo y elegir
+las mejores chalas. Reservar. Desgranar los granos,
+verter a la licuadora o en una maquina manual. \n \n Moler.
+Agregar a la licuadora con los granos las hojas de
+albahaca, licuar (moler) hasta que quede como un puré.
+ En un bol batir la yema y la clara del huevo y verter
+  a la masa de choclo. Caliente la sartén, agregue
+   ½ taza de mantequilla (manteca) y verter a la masa
+   poco a poco mezclando.\n \n
+Agregue el anís al gusto y las 5 cucharas de azúcar y
+la ½ taza de leche. Vierta la cucharilla de sal, mezclar
+bien hasta obtener una masa homogénea.\n \nn
+Cortamos el queso en lonjas no muy gruesas. Seleccionar
+las chalas sanas y frescas, las chalas rotas cortar en
+ tiras no muy delgadas y amarrar las puntas para hacer
+ unas pitas. \n \n Colocar las chalas (cascara de choclo) una
+ sobre otra de manera, que el preparado (huminta chaqueña)
+ pueda colocarse en medio y luego cerrar con las chalas cruzadas.
+Amarramos con las pitas de tal forma que la preparación
+n salga por ninguna esquina. Colocar en la base de la
+olla los marlos de los choclos y algunas chalas: \n \n colocar
+las humintas chaqueñas en forma circular, agregar agua
+hervida y cocinar aproximadamente 40 minutos a fuego mínimo.\n\n
+Consejo: \n para encontrar el punto tierno de las humintas
+ agregar una papa sin pelar y una vez cocida la papa
+ estará al punto las deliciosas humintas chaqueñas.\n
+
+
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sopa de mani"
+                android:textAllCaps="true"
+                android:id="@+id/tvSopamani"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/sopamani"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+-	¼ Kg. De hueso de vaca\n
+-	1 cebolla pequeña\n
+-	1 ramito de apio y perejil\n
+-	3 zanahorias ralladas\n
+-	½ cucharilla de orégano desmenuzado\n
+-	6 papas cortadas en cubitos\n
+-	1 y ½ taza de fideos retostados\n
+-	½ taza de maní blanco molido\n
+-	½ taza de arvejas\n
+
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+En una olla hacer hervir la carne, la cebolla,
+el apio y el perejil para hacer un caldo. Cuando
+ya esté listo, agregar la zanahoria y las arvejas,
+dejar hervir unos minutos más y agregar el fideo
+y la papa.\n \n
+El momento que la papa este medio cocido, agregar
+el maní molido y dejar que hierva a fuego medio
+hasta que espese, posteriormente retirar del fuego
+y espolvorear con el orégano.\n \n
+Dejar reposar 5 minutos y servir decorando con
+perejil picado por encima.\n
+
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ranga ranga"
+                android:textAllCaps="true"
+                android:id="@+id/tvRanga"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/ranga"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+-	1 y ½ Kilos de panza cruda\n
+-	2 cebollas peladas picadas \n
+-	1 Kilo de papa imilla pelada y cocida\n
+-	1 litro de caldo de pollo\n
+-	1 diente de ajo pelado molido\n
+-	½ taza de habas sin cascara\n
+-	½ taza de cebolla verde picada en tiritas\n
+-	4 cucharas de aceite\n
+-	Sal al gusto\n
+
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Lavar la panza con agua hervida caliente, pelar
+la piel oscura hasta que quede blanca, escurrir y
+picar en tiritas delgadas.\n \n
+Calentar la sartén con el aceite, freír la cebolla
+con el ajo hasta que doren. \n Añadir el tomate, seguir
+friendo, agregar el caldo, las habas, dejar cocer
+hasta que las habas estén suaves, sazonar con la sal.
+Echar la panza, la cebolla verde, dejar pasa no cocer
+por 10m o 15 minutos para que no se endurezca la panza.\n \n
+Retirar del fuego, triturar de forma irregular añadir a
+la ranga y mezclar. Servir caliente acompañada de llajua.
+
+"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

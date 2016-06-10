@@ -1,0 +1,336 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.gaby.android.bolivianita.LaPaz"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="chairo"
+                android:textAllCaps="true"
+                android:id="@+id/tvChairo"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chairo"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+-	8 nudos de lomo de cordero\n
+-	8 pedazos de chalona\n
+-	2/3 taza de arvejas\n
+-	2/3 taza de habas verdes\n
+-	¼ taza de trigo (mote crudo)\n
+-	2/3 taza de zanahoria pelada y picada\n
+-	5 tazas de papas peladas y picadas\n
+-	2 tazas de chuño\n
+-	1 taza de cebolla\n
+-	1 taza de tomate\n
+-	1 y ½ cucharas de sal\n
+-	3 litros de agua\n
+-	1 cuchara de ají colorado\n
+-	2 cucharas de aceite\n
+-	1 cucharilla de comino\n
+-	1 cucharilla de orégano desmenuzado\n
+-	1 cuchara de hierba buena picada fina\n
+"
+
+/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Ponga al fuego una cacerola con el agua. Cuando esté a punto de hervir
+añada las carnes, el trigo mote, el ají cocido en el aceite, la sal, la
+cebolla, el tomate, el comino y el orégano.\n \n
+Deje cocer hasta que la carne se ablande, agregue luego las zanahorias
+picadas en tiras finas y largas, las arvejas y las habas, deje cocer unos
+10 minutos.\n \n
+Al final ponga las papas picadas muy finas junto con el chuño martajado
+y lavado en varias aguas incluyendo el allpl,  que es el saldo del chuño
+molido que queda en la base del recipiente, donde se lo lavo.\n \n
+Añada sal si es necesario. Si merma el caldo añádale unas 2 o 3 tazas de
+agua hirviendo. Las papas y el chuño apenas deben dar un hervor, o sea
+unos 5 a 6 minutos, hasta que las papas estén ligeramente cocidas, y
+enteras.\n \n
+Sirva caliente con un pedazo de carne y chalona, espolvoreando encima
+hierba buena picada. Esta hierba buena es la que le da sabor típico del
+chairo paceño.\n
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="plato paceño"
+                android:textAllCaps="true"
+                android:id="@+id/tvPaceno"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/paceno"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	2 Kg. de carne de res\n
+-	habas verdes\n
+-	8 choclos\n
+-	16 papas\n
+-	queso\n
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Fría la carne fileteada. Ponga a cocer el haba en agua.\n \n
+Ponga a coser en ollas separadas las papas y  los choclos.\n
+Freír  el queso en lonjas.\n
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="queso humacha"
+                android:textAllCaps="true"
+                android:id="@+id/tvQueso"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/quesomacha"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	2 papas harinosas grandes hechas puré\n
+-	¾ Litros de leche\n
+-	½ Litro de agua\n
+-	1 kilo queso fresco en rallas\n
+-	1 y ½ tazas de habas frescas\n
+-	1 y ½ tazas de arvejas\n
+-	1 y ½ tazas de cebolla picada\n
+-	1 y ½ taza de tomate picado\n
+-	½ taza de aceite para dorar ají y cebolla\n
+-	1 y ½ cucharas de ají amarillo molido\n
+-	1 cuchara de perejil picado\n
+-	1 cuchara de quirquiña\n
+-	1 cuchara de comino\n
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+En una sartén dore en el aceite el ají y la cebolla.
+Aumente el tomate licuado, las habas, las arvejas, el
+perejil, el comino, el orégano, la quinquina y el agua
+hirviendo. \n \n Deje cocer hasta que las habas y las arvejas
+estén tiernas. En una olla con agua haga cocer las papas
+con cascara hasta que al tocarlas se puedan pelar con
+facilidad. \n \n Excurra el agua, deje enfriar un momento y
+pélelas, júntelas a la salsa, añada la leche y el queso
+picado, remueva con cuidado de no deshacer las papas ni el
+queso. \n \n Sirva caliente en platos hondos 2 papas por persona,
+cubiertas en salsa de queso y jugo, si lo desea, acompañe
+con un choclo cocido.\n
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="peske"
+                android:id="@+id/tvPeske"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:textAllCaps="true"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/peske"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	1 taza de quinua\n
+-	3 tazas de agua\n
+-	1 cucharada de mantequilla \n
+-	1 huevo\n
+-	½ taza de queso rallado\n
+-	Leche lo necesario\n
+-	Sal a l gusto\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Ponga a cocer una o más tazas de quinua debidamente
+lavada con tres tazas de agua por cada taza de quinua.
+Cuando este cocida bata mucho con un cucharon de madera.\n \n
+Agregue sal al gusto, una cucharada de mantequilla,
+un huevo y agregue leche la que precise. Servir con el
+queso rallado por encima.\n
+"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#789abb"
+                android:text="siguiente"
+                android:id="@+id/btSiguiente"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

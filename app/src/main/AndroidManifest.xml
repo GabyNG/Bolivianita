@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gaby.android.bolivianita" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Dos"
+            android:label="@string/title_activity_dos"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".LaPaz"
+            android:label="@string/title_activity_lapaz" >
+        </activity>
+        <activity
+            android:name=".LaPaz1"
+            android:label="@string/title_activity_la_paz1"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Oruro"
+            android:label="@string/title_activity_oruro" >
+        </activity>
+        <activity
+            android:name=".Oruro1"
+            android:label="@string/title_activity_oruro1"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Pando"
+            android:label="@string/title_activity_pando" >
+        </activity>
+        <activity
+            android:name=".Potosi"
+            android:label="@string/title_activity_potosi"
+            >
+        </activity>
+        <activity
+            android:name=".Potosi1"
+            android:label="@string/title_activity_potosi1"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".SantaCruz"
+            android:label="@string/title_activity_santa_cruz" >
+        </activity>
+        <activity
+            android:name=".SantaCruz1"
+            android:label="@string/title_activity_santa_cruz1"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Tarija"
+            android:label="@string/title_activity_tarija" >
+        </activity>
+        <activity
+            android:name=".Tarija1"
+            android:label="@string/title_activity_tarija1"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Beni"
+            android:label="@string/title_activity_beni" >
+        </activity>
+        <activity
+            android:name=".Cochabamba"
+            android:label="@string/title_activity_cochabamba" >
+        </activity>
+        <activity
+            android:name=".Cochabamba1"
+            android:label="@string/title_activity_cochabamba1"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Chuquisaca"
+            android:label="@string/title_activity_chuquisaca" >
+        </activity>
+        <activity
+            android:name=".Chuquisaca1"
+            android:label="@string/title_activity_chuquisaca1"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

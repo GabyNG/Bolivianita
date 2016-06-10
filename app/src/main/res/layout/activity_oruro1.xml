@@ -1,0 +1,349 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.gaby.android.bolivianita.Oruro1"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="thimpu"
+                android:textAllCaps="true"
+                android:id="@+id/tvThimpu"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/timpuoruro"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+-	8 nudos de cordero\n
+-	1/2 lb. chuño remojado\n
+-	1 taza arroz blanco\n
+-	8 papas blancas cocidas\n
+-	1 cebolla cortada en cuatro\n
+-	1 zanahoria cortada en cuatro\n
+-	1 tallo de apio\n
+-	3 tallos de perejil\n
+-	3 lt. Agua\n
+-	2 dientes de ajo\n
+-	sal, comino, laurel y orégano a gusto\n
+Ahogado: \n
+-	2 cebollas repicadas\n
+-	1 tomate repicado (sin piel sin semillas)\n
+-	1 taza ají amarillo molido\n
+-	1/2 taza caldo cocción del cordero\n
+-	aceite, sal, comino, pimienta a gusto\n
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Colocar en el agua hirviendo la carne, añadir la cebolla
+el apio perejil, zanahoria, sal y orégano y dejar cocer
+hasta que el cordero esté suave, luego a éste colocar las
+papas y el chuño y dejar cocer en su totalidad.\n \n
+
+Para el ahogado:\n freír la cebolla, agregar el tomate y
+el ají, sazonar y colocar una taza de caldo de cocción y
+dejar reducir, reservar.\n \n
+
+Servir una porción de arroz blanco, papa cocida, chuño
+cocido dos nudos de cordero y el ahogado encima, luego
+se sirve la sopa pura de cocción.\n
+
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="colita de cordero"
+                android:textAllCaps="true"
+                android:id="@+id/tvColita"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	4 colitas de cordero\n
+-	1 cebolla\n
+-	Perejil\n
+-	Sal\n
+-	½ cucharilla de pimienta\n
+-	½ cucharilla de comino\n
+-	5 dientes de ajo molido\n
+-	½ litro de aceite\n
+-	Choclos y papas cocidas para acompañar\n
+
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+En una olla colocar el perejil la cebolla y sal, cuando
+hierva colocar la carne y cocer hasta que este suave,
+escurrir y sazonar con el resto de condimentos y dejar
+macerar por 20 minutos. \n \n Luego calentar el aceite y freír
+las colitas, servir calientes.\n
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pejerrey rebosado"
+                android:textAllCaps="true"
+                android:id="@+id/tvPejerrey"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pejerrey"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	6 pejerrey escamados y sin espinas\n
+-	¼ litro de leche\n
+-	12 papas \n
+-	4 cucharas de harina\n
+-	½ cucharilla de polvo de hornear\n
+-	1 cebolla\n
+-	1 tomate\n
+-	1 cuchara de ají amarillo cocido\n
+-	2 huevos\n
+-	2 limones\n
+-	Sal y pimienta al gusto\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Limpiar previamente los pejerrey y lavarlos. Batir los
+huevos, agregar la harina con el polvo de hornear, sal y
+pimienta, mezclar.\n \n
+Pasar los pejerrey por esta preparación y freír en aceite
+caliente. Hacer cocer las papas peladas y freírlas un poco.\n \n
+Preparar un ahogado con cebolla, tomate, ají y sal. Servir
+con el ahogado encima  del rebosado y las papas.\n
+
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="costillar"
+                android:textAllCaps="true"
+                android:id="@+id/tvCostillas"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/costillar"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	4 costillas de cordero grande\n
+-	1 cebolla entera\n
+-	2 ramitas de perejil enteras\n
+-	2 ramitas de apio enteras\n
+-	Sal al gusto\n \n
+Condimentos:\n
+-	1 cucharilla de pimienta entero\n
+-	1 cucharilla de comino entero\n
+-	4 dientes de ajo\n
+-	2 vainas de ají amarillo \n
+despepitado (opcional)\n
+-	Aceite\n\n
+Para acompañar:\n
+-	6 papas blancas\n
+-	1 taza de arroz\n
+-	1 diente de ajo\n
+-	¼ cebolla finamente picada\n
+-	Sal\n
+
+
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Corte en dos cada una de las costillas y ponga en
+agua hirviendo junto con la cebolla, el perejil y el
+ apio entero. Haga cocer hasta que ablande la carne.
+ Agregue sal al gusto.\n \n Muela en un batan o licuadora
+ los condimentos, pimienta comino, ajo y el ají amarillo
+ (opcional). Una vez cocida las costillas, sazonar con
+ todos los condimentos recién molidos. Deje reposar
+ 2 horas mismo.\n \n
+Ponga las costillas condimentadas, en una fuente para
+hornear, junto con 2 cucharadas de aceite a temperatura
+moderada, hornee hasta que queden doradas o en un sartén
+con bastante aceite, fría las costillas de ambos lados,
+hasta que queden doradas.\n
+Para acompañar:\n\n
+Haga cocer las papas blancas peladas en agua con sal.
+Fría las papas cocidas en el mismo sartén que coció las
+costillas.\n \n
+Para el arroz, precisamente lavarlo y retostarlo en un
+sartén caliente, sin aceite hasta que seque, añada la
+cebolla picada. Siga removiendo, agregue el diente de
+ajo finamente picado, remueva, hasta quedar dorado,
+incorpore el arroz a una olla, junto con 2 tazas de
+agua caliente, sal al gusto, y deje cocer a fuego fuerte,
+cuando el agua se vaya consumiendo, disminuya el fuego a
+ mínimo, aumentando de a poco agua hervida, hasta terminar
+  su cocimiento con el vapor.\n \n
+Sirva un pedazo de costilla acompañada con las papas
+doradas, arroz soltero y llajua.
+"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

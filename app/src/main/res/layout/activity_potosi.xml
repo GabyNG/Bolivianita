@@ -1,0 +1,294 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.gaby.android.bolivianita.Potosi"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cazuela"
+                android:textAllCaps="true"
+                android:id="@+id/tvCazuela"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cazuela"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+-	½ Kg de cordero\n
+-	6 trozo de hueso blanco\n
+-	1 cebolla\n
+-	1 ramita de perejil\n
+-	1 repollo pequeño\n
+-	3 zanahorias cortadas en seis longitudinalmente\n
+-	1 papa por persona1 platillo de arvejas\n
+-	½ taza de arroz\n
+-	6 cucharas colmadas de maní tostado y molido\n
+-	1 cuchara de orégano\n
+-	Sal a gusto\n
+
+                "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Cocine en 9 tazas de agua el hueso y cordero, luego
+de 15 minutos añadir cebolla, perejil, repollo y
+arvejas. Pasado un momento agregar maní molido
+zanahorias. \n \n Cuando estas estén a medio cocer
+incorpore las papas y el arroz. El momento de servir
+espolvoree orégano.\n
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="chajchu"
+                android:textAllCaps="true"
+                android:id="@+id/tvChajchu"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chajchu"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	1 y ½ Kg de chuño remojado y pelado\n
+-	7 tazas de agua\n
+-	½ Kg de cadera de vaca\n
+-	1 cabeza de cebolla entera\n
+-	6 vainas de ají colorado molido o\n
+ 3 cucharadas de ají en polvo\n
+-	1 taza de la sopa del chajchu\n
+-	Sal al gusto\n
+-	6 papas grandes\n
+-	7 colas de cebollas verde cortada en \n
+tiras(lavar las hijas antes de cortar)\n \n
+Para acompañar:\n
+-	2 quesillos frescos cortados en 6 lonjas\n
+-	3 huevos duros\n \n
+Salsa cruda:\n
+-	1 cebolla mediana picada en rodajas\n
+-	1 tomate finamente picado\n
+-	1 locoto finamente picado\n
+-	1 cucharilla de sal\n
+-	1 cucharada perejil finamente picado\n
+-	Sal al gusto\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Remojar el chuño seco una noche antes, con bastante
+agua tibia. Pelar y lavar varias veces, exprimiendo
+con las manos, hasta que el color del agua sea
+cristalina, se puede comprar chuño remojado y lavado
+en los mercados.\n \n
+En una olla, calentar las 7 tazas de agua a fuego
+fuerte, una vez este tibia, agregar la carne cortada
+ en lonjas delgadas, junto con la cebolla entera
+ retostada. Desespumar las veces que sea necesario,
+ dejar cocinar una hora.\n \n
+En una sartén con ¼ de aceite, dorar levemente el ají
+ a juego fuerte, agregar 1 taza de sopa del chajchu y
+ sal a gusto, baja el fuego. Dejar cocer 15 minutos o
+  hasta que se reduzca, mezclando permanentemente para
+   que no se queme. Sacar del fuego.\n \n
+Una vez cocida la carne, agregar las papas y el chuño,
+ dejar cocer 20 minutos o hasta que la papa este suave,
+ añadir la cebolla verde cortada y dejar hervir 5 minutos
+ más. Retirar la olla del fuego y escurrir el caldo,
+ martajar y picar la carne en trozos. \n \n Mantenerla caliente.
+Descartar la cebolla entera, servir el chuño, la papa
+y la cebolla verde en cada plato, encima poner las
+carnes martajadas, las tajadas de quesito fresco y los
+huevos duros cortados en rodajas, rociar con el ají cocido.\n
+Para la salsa cruda mezclar la cebolla en rodajas, el
+tomate, el locoto y la sal, cubrir cada plato con la salsa
+cruda. Rociar con el perejil picado.\n
+
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aji de achacana"
+                android:textAllCaps="true"
+                android:id="@+id/tvAchacana"
+                android:textSize="30dp"
+                android:textColor="#cd90ab"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/achacana"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ingredientes:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+
+-	1 plato de achacana picada\n
+-	½ Kilo de carne de res\n
+-	1 cebolla grande\n
+-	3 cucharadas de ají colorado molido y frito\n
+-	4 papas\n
+-	½ libra de maíz remojado y cocido\n
+-	½ libra de chuño remojado pelado y cocido\n
+-	½ cucharadita de pimienta molida\n
+-	¼ cucharadita de comino molido\n
+-	Sal a gusto\n \n
+Para la sarza:\n
+-	2 cebollas\n
+-	1 tomate\n
+-	Aceite y sal a gusto\n
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preparación:"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff8800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="
+Cocer la achacana en un poco de agua con sal y escurrir.
+En una sartén, freír la cebolla finamente picada.\n \n Cuando
+ este transparente, añadir la carne picada y dejarla
+ dorar. Luego agregar el ají colorado y los condimentos,
+ media taza de agua y cocinar por 10 minutos.\n \n
+En una olla con media taza de agua agregar la achacana,
+ el preparado de carne, las papas cocidas, y darles un hervor.
+Preparación de la sarza:\n \n
+Picar la cebolla en pluma, el tomate en cubos y aderezar
+con aceite y sal.\n \n
+Servir el ají de achacana con sarza encima, acompañado
+de mote y chuño.\n
+
+"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#789abb"
+                android:text="siguiente"
+                android:id="@+id/btSiguiente2"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
